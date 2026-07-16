@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlueWave Shipping Company Ltd.</title>
+</head>
+<body>
+    <h1 align="center">BlueWave Shipping Company Ltd.</h1>
+
+    <marquee behavior="scroll" direction="right" scrollamount="8">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTanPicjBXCxrGHDZuFcjjiOVST2RGkIEuESM7TUo0aiA&s=10"
+             alt="Cargo Ship"
+             width="250"
+             height="150">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZBg6pllsdj3BPLC8-hFCSQ7muQQWzKDvdxKKZ8J_w5A&s=10"
+             alt="Container Ship"
+             width="250"
+             height="150">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkvjZ4OqnCtNJ8uCtXxHE8v7c6FC2R00hT7GInYHdoFQ&s=10"
+             alt="Passenger Ferry"
+             width="250"
+             height="150">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo0cJHfFbKt2badfoz3cE3czI11GXsOgKQ0YXictnjFA&s=10"
+             alt="Fishing Boat"
+             width="250"
+             height="150">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYc1yIcQV2Un5rWw5NngBCNkZ-rXFaZVBwwolY-sroA&s=10"
+             alt="Speed Boat"
+             width="250"
+             height="150">
+    </marquee>
+
+    <div align="center">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2Y2vGvx0jKn60KcDOjusMI17lO3peQo4HlerTjiYCAQ&s=10" alt="BlueWave Shipping Company Logo" width="150" height="80">
+    </div>
+    <br>
+
+    <form>
+        <fieldset>
+            <legend>Customer Information</legend>
+            <label for="fullname">Customer Full Name:</label>
+            <input type="text" id="fullname" name="fullname"><br><br>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+
+            <label for="nationalid">National ID/Passport Number:</label>
+            <input type="text" id="nationalid" name="nationalid"><br><br>
+
+            <label for="address">Physical Address:</label>
+            <input type="text" id="address" name="address"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Shipment Details</legend>
+            <label for="shipmenttype">Shipment Type:</label>
+            <select id="shipmenttype" name="shipmenttype">
+                <option>Cargo Ship</option>
+                <option>Container Ship</option>
+                <option>Passenger Ferry</option>
+                <option>Fishing Boat</option>
+                <option>Speed Boat</option>
+            </select><br><br>
+
+            <label for="destination">Destination Port:</label>
+            <input type="text" id="destination" name="destination"><br><br>
+
+            <label for="shippingdate">Preferred Shipping Date:</label>
+            <input type="date" id="shippingdate" name="shippingdate"><br><br>
+
+            <label for="cargoweight">Cargo Weight (kg):</label>
+            <input type="number" id="cargoweight" name="cargoweight"><br><br>
+
+            <label>Additional Services:</label><br><br>
+            <input type="checkbox" id="insurance" name="services">
+            <label for="insurance">Insurance</label><br><br>
+
+            <input type="checkbox" id="tracking" name="services">
+            <label for="tracking">Cargo Tracking</label><br><br>
+
+            <input type="checkbox" id="clearance" name="services">
+            <label for="clearance">Customs Clearance</label><br><br>
+
+            <input type="checkbox" id="delivery" name="services">
+            <label for="delivery">Door Delivery</label><br><br>
+
+            <label>Payment Method:</label><br><br>
+            <input type="radio" id="cash" name="payment" value="Cash">
+            <label for="cash">Cash</label><br><br>
+
+            <input type="radio" id="banktransfer" name="payment" value="Bank Transfer">
+            <label for="banktransfer">Bank Transfer</label><br><br>
+
+            <input type="radio" id="creditcard" name="payment" value="Credit Card">
+            <label for="creditcard">Credit Card</label><br><br>
+
+            <input type="radio" id="mobilemoney" name="payment" value="Mobile Money">
+            <label for="mobilemoney">Mobile Money</label><br><br>
+        </fieldset>
+
+        <fieldset>
+            <button type="submit">Book Shipment</button>
+            <button type="reset">Clear Form</button>
+        </fieldset>
+    </form>
+</body>
+</html>
